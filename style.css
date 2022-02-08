@@ -25,13 +25,13 @@ div.blog-post:first-of-type hr{
     border-color: red;
 }
 /* 6.Write a selector to target the "even" links in the navbar */
-.blog-pagination a:nth-child(2n){
-    border-color: rgb(187, 99, 150);
+header{
+    color: rgb(187, 15, 115);
 }
 
 /* 7.Write a selector to target all the <li> into the first ordered-list in the sidebar ( Archives ) */
 aside div:nth-child(2) ol li a{
-    color:rgb(94, 52, 52);
+    color:rgba(17, 53, 119, 0.787);
 }
 
 /* 8.Write a selector to target the second blog-post author */
@@ -44,10 +44,17 @@ div.blog-post:nth-child(3) p:first-of-type a{
 }
 
 /* 10.Write a selector to target the "back to top" link you can find at the bottom-right corner */
+body>a{
+    border-bottom: 1px solid red;
+}
 
 /* 11.Write a selector to target the “Newer” button at the bottom */
+.blog-pagination a{
+    color: rgb(184, 44, 67);
+}
 
 /* 12.Write a selector to target the footer's second link */
-
-
+.blog-footer p a:nth-child(2){
+    color: violet;
+}
 
